@@ -83,7 +83,6 @@ namespace Projekat1
 
             foreach (Projekcija p in projekcije)
                 listBox1.Items.Add(p.ToString() + ", Broj dostupnih mesta: " + p.Sala.BrojSedista);
-
         }
 
         private void btnReset_Click(object sender, EventArgs e)
