@@ -26,6 +26,7 @@ namespace Projekat1
                 cbNaziv.Items.Add(f.Naziv);
             }
             dateTimePicker1.Value = DateTime.Now.AddHours(1);
+            dateTimePicker2.Value = DateTime.Now.AddDays(7);
         }
 
         private void btnPrikaz_Click(object sender, EventArgs e)
